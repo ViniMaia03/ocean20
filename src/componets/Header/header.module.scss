@@ -1,0 +1,23 @@
+.header {
+    background-color: #ececec;
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.item {
+    list-style: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: #0047ff;
+    font-size: 28px;
+    font-weight: 600;
+}
