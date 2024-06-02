@@ -4,13 +4,15 @@ export default function Header() {
     return(
         <>
             <header className={styles.header}>
-                <nav className={styles.menu}>
-                    <ul className={styles.nav}>
-                        <li className={styles.item}> <a href="#"> S.O.S </a></li>
-                        <li className={styles.item}> <a href="#"> Conscientização </a></li>
-                        <li className={styles.item}> <a href="#"> ONG's </a> </li>
-                    </ul>
-                </nav>
+                <div className={styles.cabecalho}>
+                    <nav className={styles.menu}>
+                        <ul className={styles.nav}>
+                            <li className={styles.item}> <a href="#sos"> S.O.S </a></li>
+                            <li className={styles.item}> <a href="#info"> Conscientização </a></li>
+                            <li className={styles.item}> <a href="#ong"> ONG's </a> </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
         </>
     )
