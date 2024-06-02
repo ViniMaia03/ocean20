@@ -1,4 +1,24 @@
 .inicio {
-    background-color: blue;
-    height: 400px;
+    display: flex;
+    gap: 144px;
+    height: 500px;
+    width: 100%;
+    padding: 50px;
+    background-image: url(../../assets/bg-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.titulo {
+    font-size: 128px;
+    text-align: center;
+    color: #fff;
+}
+
+.subtitulo {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 90px;
+    color: #fff;
 }
