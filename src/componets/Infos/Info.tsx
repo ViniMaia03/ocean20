@@ -8,7 +8,7 @@ export default function Info() {
             <section className={styles.info} id='info'>
                 <div className={styles.div_txt_info}>
                     <h2 className={styles.titulo_info}> Conscientização </h2>
-                    <p className={styles.subtitulo_info}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quas porro libero quos non necessitatibus iure animi natus fugit accusantium consequuntur mollitia aspernatur deleniti voluptates aut, distinctio, a fuga ipsum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, similique? Quaerat culpa accusantium quis amet quos, dolorem dolore enim sit minima perspiciatis consequuntur incidunt, eos ipsa pariatur reprehenderit quia sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quae reiciendis, quia harum cumque pariatur cum laboriosam, placeat sequi necessitatibus hic saepe consequuntur iste animi! Blanditiis dolorem incidunt voluptatum omnis. </p>
+                    <p className={styles.subtitulo_info}> A poluição marinha, com 80% proveniente de atividades terrestres, resulta na entrada anual de 8 milhões de toneladas de plástico nos oceanos, ameaçando ecossistemas e a saúde pública. Sem ações significativas, em 2050 haverá mais plástico que peixes, em peso, nos oceanos. Campanhas aumentaram o conhecimento sobre o problema em 70%, mas apenas 25% das pessoas adotaram práticas sustentáveis. A ingestão de microplásticos por espécies marinhas afeta 10% delas, entrando na cadeia alimentar humana. Medidas urgentes e cooperativas entre governos, empresas e indivíduos são essenciais para mitigar esse impacto e preservar nossos oceanos. </p>
                 </div>
 
                 <div className={styles.div_img_info}>   

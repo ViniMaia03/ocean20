@@ -5,6 +5,7 @@ import Inicio from "@/componets/Inicio/Inicio";
 import Info from "@/componets/Infos/Info";
 import Ongs from "@/componets/Ongs/Ongs";
 import Rodape from "@/componets/Rodape/Rodape";
+import Oceanos from "@/componets/Oceanos/oceanos";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <Inicio />
       <Info />
+      <Oceanos />
       <Ongs />
       <Rodape />
     </>

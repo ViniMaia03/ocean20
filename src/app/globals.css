@@ -7,11 +7,11 @@
 }
 
 :root {
-  --bg-color: #c0f4ff;
+  --bg-color: #ececec;
 }
 
 
-h1, h2, h3, h4, h4, h6, p, span, a {
+h1, h2, h3, h4, h4, h6, p, span, a, label {
   font-family: 'Inter', sans-serif;
 }
 
