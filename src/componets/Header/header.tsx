@@ -9,6 +9,7 @@ export default function Header() {
                         <ul className={styles.nav}>
                             <li className={styles.item}> <a href="#sos"> S.O.S </a></li>
                             <li className={styles.item}> <a href="#info"> Conscientização </a></li>
+                            <li className={styles.item}> <a href="#oceanos"> Descubra os Oceanos </a> </li>
                             <li className={styles.item}> <a href="#ong"> ONG's </a> </li>
                         </ul>
                     </nav>

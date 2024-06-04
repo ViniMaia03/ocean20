@@ -22,7 +22,7 @@ export default function Oceanos() {
 
     return(
         <>
-            <section className={styles.oceanos}>
+            <section className={styles.oceanos} id="oceanos">
                 <label htmlFor="oceanos" className={styles.oceanos_titulo}> Selecione um oceano: </label>
                 <select className={styles.oceanos_select} id="oceanos" value={selecionado.value} onChange={(e) => {
                     const selectedOcean = oceanosInfo.find(ocean => ocean.value === e.target.value);
@@ -36,7 +36,7 @@ export default function Oceanos() {
                 </select>
 
                 <div>
-                    <Image src={selecionado.img} alt={selecionado.label} width={300} height={300}/>
+                    <Image src={selecionado.img} alt={selecionado.label} width={300} height={300} className={styles.img_oceanos} />
                     <p>{selecionado.info}</p>
                 </div>
             </section>
