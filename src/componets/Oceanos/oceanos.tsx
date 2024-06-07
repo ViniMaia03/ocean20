@@ -13,11 +13,11 @@ export default function Oceanos() {
 
     const oceanosInfo = [
         { value: '', label: '', img: '', info: '' },
-        { value: 'atlantico', label: 'Atlântico', img: '/assets/section1.png', info: 'Informações sobre o Atlântico' },
-        { value: 'pacifico', label: 'Pacífico', img: 'url_para_imagem_pacifico', info: 'Informações sobre o Pacífico' },
-        { value: 'indico', label: 'Índico', img: 'url_para_imagem_indico', info: 'Informações sobre o Índico' },
-        { value: 'artico', label: 'Ártico', img: 'url_para_imagem_artico', info: 'Informações sobre o Ártico' },
-        { value: 'antartico', label: 'Antártico', img: 'url_para_imagem_antartico', info: 'Informações sobre o Antártico' },
+        { value: 'atlantico', label: 'Atlântico', img: '/assets/oceano-atlantico.jpg', info: 'Informações sobre o Atlântico' },
+        { value: 'pacifico', label: 'Pacífico', img: '/assets/oceano-atlantico.jpg', info: 'Informações sobre o Pacífico' },
+        { value: 'indico', label: 'Índico', img: '/assets/oceano-atlantico.jpg', info: 'Informações sobre o Índico' },
+        { value: 'artico', label: 'Ártico', img: '/assets/oceano-atlantico.jpg', info: 'Informações sobre o Ártico' },
+        { value: 'antartico', label: 'Antártico', img: '/assets/oceano-atlantico.jpg', info: 'Informações sobre o Antártico' },
     ];
 
     return(
